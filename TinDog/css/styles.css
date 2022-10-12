@@ -1,0 +1,236 @@
+body{
+    font-family: "Montserrat",sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+
+
+
+.row{
+    margin-top:3%;
+    
+}
+.container-fluid{
+    padding:3% 15% 7%;
+}
+h1{
+    /* Montserrat has 3 different weights : 100 , 400 , 900 */
+    
+    font-size:2.7rem;
+    color:white;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size:2.5rem;
+
+}
+
+.nav-item{
+    padding:0 1rem;
+}
+.nav-link{
+    font-size:1.2rem;
+}
+
+/* title  */
+
+.title.txt{
+    padding: 7% 0 3% 0;
+}
+/* #title .row.title-img{
+    text-align: center;
+} */
+
+/* Download Button */
+
+.download-btn{
+    margin: 5% 4% 5% 0;
+}
+
+/* title-image */
+.title-div{
+    position:relative;
+    /* padding-bottom: 3%; */
+}
+.title-img{
+    width: 55%;
+    transform: rotate(10deg);
+    position:absolute;
+    right:15%;
+    top:0%;
+}
+.title-img:hover{
+    /* transform: rotate(0deg);
+    transform: scale(1.5); */
+    width:40%;
+}
+
+/* Section Features */
+
+#features{
+    padding:5% 0;
+    position:relative;
+    /* z-index:0; */
+}
+.ft-bx{
+    font-size:1rem;
+    text-align:center;
+
+}
+
+.ft-bx > .blocks{
+    padding:1%;
+}
+.blocks>*{
+    margin:5% 0;
+}
+
+.ft-bx>.blocks>.icon{
+    /* color:#ff4c68; */
+    color:#ef8172;
+    transition: all 0.4s ease-in-out;
+}
+.ft-bx>.blocks>.icon:hover{
+    color:#ff4c68;
+}
+.blocks p{
+    color:#8f8f8f;
+    margin:0 10%;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    text-align: center;
+    color:#fff;
+    background-color: #ef8172;
+
+}
+#testimonials h2{
+    font-size: 3rem;
+}
+
+#testimonials img{
+    width:15%;
+    border-radius: 100%;
+    margin:3%;
+}
+.carousel-item{
+    padding:5% 15%;
+}
+
+/* Press Section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    /* border: solid 1px black; */
+    padding:1% 0  7%;
+}
+#press *{
+    width:12%;
+    margin:0 5% 0 0;
+    transition: all 0.3s ease-in-out;
+}
+#press *:hover{
+    transform: scale(1.4);
+}
+
+h2{
+    font-size: 3rem;
+}
+
+/* Pricing Secition */
+
+#pricing {
+    padding:4% 6%;
+    text-align:center;
+}
+#pricing .card{
+    transition: all 0.4s ease-in-out;
+}
+#pricing .card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pricing-col{
+    padding:4% 2%;
+}
+
+@media (max-width :1002px) {
+    #title{
+        text-align:center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+        pointer-events: none;
+    
+    }
+    .title-img:hover{
+        /* transform: rotate(0deg); */
+        /* transform: scale(1.5); */
+        /* width:40%; */
+    }
+    }
+#cta{
+    text-align: center;
+    padding:2%;
+}
+.cta-container{
+    padding:10%;
+    margin:auto;
+    width:70%;
+}
+#cta button{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#cta .download-btn{
+    margin:7% 2% 3% 0;
+}
+#cta h3{
+    color:aliceblue;
+    font-size: 3rem;
+}
+
+#footer{
+    padding:7%;
+    text-align: center;
+}
+.icons *{
+    margin:0 2% 3% 0;
+
+}
+#footer p{
+    font-size: 1.3rem;
+}
+
+.coloured-section{
+    background-color: #ff4c68;
+    color:#fff;
+}
+.white-section{
+   background-color: #fff;
+}
+
+.effect{
+    transition: all 0.4s ease-in-out;
+}
+.effect:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

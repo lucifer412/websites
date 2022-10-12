@@ -1,0 +1,153 @@
+body{
+    margin:0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    color:#40514E;
+}
+hr{
+    width:20%;
+    border:dotted #ccf3f3 10px;
+    border-bottom:none;
+}
+h1{
+    font-size:60px;
+    font-family: 'Rock Salt', cursive;
+    line-height: 1;
+    color:#66BFBF;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#66BFBF;
+    padding:10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+p{
+    line-height: 2;
+}
+h2:first-child{
+    font-size:2.5rem;  /*or 40px*/
+    font-weight: normal;
+}
+a{
+    color:#11999E;
+}
+iframe{
+    display:inline-block;
+    height: fit-content;
+    width:fit-content;
+}
+.top{
+    background-color:#EFFFFD;
+    position:relative;
+    padding-top:100px;
+}
+.bottom-cloud{
+    position:absolute;
+    bottom:300px;
+    left:300px;
+}
+.top-cloud{
+    position:absolute;
+    top:50px;
+    right:350px;
+}
+.intro{
+    width:30%;
+    margin:50px auto;
+    
+}
+
+.middle-container{
+    padding-top:100px;
+}
+
+.skill-img{
+    width:25%;
+}
+.profile-img{
+    height:200px;
+    width:200px;
+}
+
+.skill-row{
+    width:50%;
+    margin:100px auto;
+    text-align: left;
+    line-height:2;
+}
+.list{
+    display:inline-block;
+}
+
+/* .skills > .skill-row:first-child iframe{
+    float:left;
+} */
+.skill-img:nth-child(1){
+    float:left;
+}
+
+/* DOUBT ------- PROBLEM */
+/* .skill-row:nth-child(3) iframe{
+    float:right;
+} */
+/*   BUT THIS WORKS     (but why do i need to use 3rd nth child) */
+
+/* .skill-row:nth-child(3) .skill-img{
+    float:right;
+} */
+
+
+.skill-row-2 .skill-img{
+    float:right;
+}
+.contact-me{
+    margin:100px auto;
+}
+.bottom-container{
+    
+    background-color: #66BFBF;
+    padding : 50px 0 20px;
+}
+.bottom-container a{
+    text-decoration:none;
+    margin:5px 20px;
+    color:#396f70;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.bottom-container a:hover{
+    color:#EAF6F6;
+}
+.copyright{
+    margin:40px auto 0 auto;
+    font-size:0.80rem;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -moz-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -ms-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -o-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: linear-gradient(to bottom, #11cdd4, #2980b9);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #2fb1b5);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #2fb1b5);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #2fb1b5);
+    background-image: -o-linear-gradient(top, #3cb0fd, #2fb1b5);
+    background-image: linear-gradient(to bottom, #3cb0fd, #2fb1b5);
+    text-decoration: none;
+  }
